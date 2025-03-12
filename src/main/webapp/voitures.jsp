@@ -18,7 +18,7 @@
 			<div class="card-header">Recherche des Voitures</div>
 			<div class="card-body">
 				<form action="chercher.do" method="get">
-					<label>Mot Clé</label> <input type="text" name="motCle"
+					<label>Marque:</label> <input type="text" name="motCle"
 						value="${model.motCle}" />
 					<button type="submit" class="btn btn-primary">Chercher</button>
 				</form>
@@ -28,8 +28,8 @@
 						<th>Marque</th>
 						<th>Modele</th>
 						<th>Prix</th>
-						<th>supprimer</th>
-						<th>modifier</th>
+						<th>Supprimer</th>
+						<th>Modifier</th>
 					</tr>
 					<c:forEach items="${model.voitures}" var="v">
 						<tr>

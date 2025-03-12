@@ -21,21 +21,22 @@
 					<div class="form-group">
 						<label class="control-label">ID Voiture :</label> <input readonly
 							type="text" name="id" class="form-control"
-							value="${v.id}" />
+							value="${voiture.id}" />
 					</div>
 					<div class="form-group">
 						<label class="control-label">Marque :</label> <input
 							type="text" name="marque" class="form-control"
-							value="${v.marque}" />
+							value="${voiture.marque}" />
 					</div>
 					<div class="form-group">
 						<label class="control-label">Modele :</label> <input
 							type="text" name="modele" class="form-control"
-							value="${v.modele}" />
+							value="${voiture.modele}" />
 					</div>
 					<div class="form-group">
 						<label class="control-label">Prix :</label> <input type="text"
-							name="prix" class="form-control" value="${v.prix}" />
+							name="prix" class="form-control" 
+							value="${voiture.prix}" />
 					</div>
 					<div>
 						<button type="submit" class="btn btn-primary">Modifier</button>
